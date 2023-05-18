@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: beige;
+    background-color: #191919;
+}
+.title{
+    display:flex;
+    justify-content: center;
+
+}
+.title-text{
+    color: aqua;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-shadow: rgb(160, 10, 247) 1px 0 10px;
+    font-size: x-large;
+    
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.button-submit{
+    margin:10px;
+    padding: 5px;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    background-color: transparent;
+    color: skyblue;
+    
+}
+
+
+.button-submit:hover{
+    transform: scale(1.2);
+    background-color: aqua;
+    color: #191919;
+    font-weight: 500;
+
+}
+
+.img1{
+    width: 15vh;
+    border-radius: 20px;
+    margin-left: 35%;
+}
+.img2{
+    width: 16.7vh;
+    border-radius: 20px;
+    margin-left: 25%;
+
+}
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    
+    margin-top: 80px;
+}
+.choice1{
+    color: aqua;
+    font-size: 25px;
+    font-family: cursive;
+
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: monospace;
+    margin-top: 15px;
+    color: antiquewhite;
+}
+.text{
+    margin-left: 60px;
+
+}
+
+.div4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.div5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+.choice{
+    padding: 12px;
+}
+.choice02{
+    background-color: aqua;
+    font-family: cursive;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    
+}
+.choice01{
+    background-color: aqua;
+    font-family: cursive;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    
+}
+.choice03{
+    background-color: aqua;
+    font-family: cursive;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+#userWinCount{
+    font-size: 30px;
+    color: skyblue;
+}
+
+#computerWinCount{
+    font-size: 30px;
+    color: skyblue;
+}
